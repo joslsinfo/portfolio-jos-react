@@ -2,7 +2,7 @@
   "name": "portfolio-jos-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://joslsinfo.github.io/portfolio-jos-react",
+  "homepage": "https://joslsinfo.github.io/portfolio-jos-react/portfolio-jos-react",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@popperjs/core": "^2.11.8",

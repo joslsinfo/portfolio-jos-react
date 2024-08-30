@@ -11,8 +11,8 @@ import "./index.css";
 const App = () => {
   return (
     <div>
-      {/* <BrowserRouter basename="portfolio-jos-react"> */}
-      <BrowserRouter>
+      <BrowserRouter basename="portfolio-jos-react">
+        {/* <BrowserRouter> */}
         <Header />
 
         <Routes>
