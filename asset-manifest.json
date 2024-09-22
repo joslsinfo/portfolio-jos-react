@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-jos-react/static/css/main.242cad14.css",
-    "main.js": "/portfolio-jos-react/static/js/main.a2ea2df3.js",
+    "main.css": "/portfolio-jos-react/static/css/main.4e50f7e2.css",
+    "main.js": "/portfolio-jos-react/static/js/main.a7d60c2d.js",
     "static/js/453.dd41297d.chunk.js": "/portfolio-jos-react/static/js/453.dd41297d.chunk.js",
     "static/media/terrasse.png": "/portfolio-jos-react/static/media/terrasse.080cab93c89e65c4570a.png",
     "static/media/img-salledereunion.png": "/portfolio-jos-react/static/media/img-salledereunion.ae7b3ccd1b6b27e4cb5e.png",
@@ -23,12 +23,12 @@
     "static/media/josprofilsize.jpg": "/portfolio-jos-react/static/media/josprofilsize.8a6e7d0336c4c4059f55.jpg",
     "static/media/Thewisdomofcatsisinfinitelysuperior.jpg": "/portfolio-jos-react/static/media/Thewisdomofcatsisinfinitelysuperior.4a3c15441ced4114b55d.jpg",
     "index.html": "/portfolio-jos-react/index.html",
-    "main.242cad14.css.map": "/portfolio-jos-react/static/css/main.242cad14.css.map",
-    "main.a2ea2df3.js.map": "/portfolio-jos-react/static/js/main.a2ea2df3.js.map",
+    "main.4e50f7e2.css.map": "/portfolio-jos-react/static/css/main.4e50f7e2.css.map",
+    "main.a7d60c2d.js.map": "/portfolio-jos-react/static/js/main.a7d60c2d.js.map",
     "453.dd41297d.chunk.js.map": "/portfolio-jos-react/static/js/453.dd41297d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.242cad14.css",
-    "static/js/main.a2ea2df3.js"
+    "static/css/main.4e50f7e2.css",
+    "static/js/main.a7d60c2d.js"
   ]
 }
