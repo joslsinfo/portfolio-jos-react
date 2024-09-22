@@ -1,16 +1,16 @@
 import React from "react";
 import "./Home.css";
-import cv from "../../assets/docs/cv-jos.pdf";
-import programming from "../../assets/img-programming.png";
+import cv from "../../../assets/docs/cv-jos.pdf";
+import programming from "../../../assets/img-programming.png";
 import {
   burgerImages,
   refugeMimineImages,
   karateKidImages,
   josCoworkingImages,
-} from "../../components/data/projectData.js";
+} from "../../../components/data/projectData.js";
 
-import Carousel from "../../components/carousel/Carousel.jsx";
-import ProjectSection from "../../components/projectSection/ProjectSection.jsx";
+import Carousel from "../../../components/carousel/Carousel.jsx";
+import ProjectSection from "../../../components/en/projectSection/ProjectSection.jsx";
 
 const Home = () => {
   return (
@@ -24,9 +24,9 @@ const Home = () => {
         Très passionné par le développement web, dynamique et motivé à
         travailler seul ou en équipe pour développer des applications web.
         <br />
-        Je travaille présentement comme agent technique dans une compagnie de
-        luminaires depuis 2014. <br />
-        Et je suis une formation en développement web front-end au Cégep de
+        Je travaillais comme agent technique dans une compagnie de luminaires.{" "}
+        <br />
+        Et j'ai terminé une formation en développement web front-end au Cégep de
         Trois-Rivières. <br />
         J'aimerais m'y orienter pour contribuer au développement de cette
         nouvelle technologie et avoir plus d'expériences dans ce domaine que

@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "../../components/header/Header.css";
+import "../../fr/header/Header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import profil from "../../assets/josprofilsize.jpg";
-import cv from "../../assets/docs/cv-jos.pdf";
-import { changeDarkMode } from "../../js/darkMode.js";
+import profil from "../../../assets/josprofilsize.jpg";
+import cv from "../../../assets/docs/cv-jos.pdf";
+
+import { changeDarkMode } from "../../../js/darkMode.js";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <header className="header navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
@@ -28,13 +34,14 @@ const Header = () => {
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={toggleMenu}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link to="/" className="nav-link">
+              <Link to="/" className="nav-link" onClick={toggleMenu}>
                 Accueil
               </Link>
             </li>
@@ -44,7 +51,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/projects" className="nav-link">
+              <Link to="/projects" className="nav-link" onClick={toggleMenu}>
                 Projets
               </Link>
             </li>
@@ -59,7 +66,7 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-link">
+              <Link to="/contact" className="nav-link" onClick={toggleMenu}>
                 Contact
               </Link>
             </li>

@@ -1,19 +1,19 @@
 import React from "react";
 import "./ProjectsPage.css";
-import ProjectSection from "../../components/projectSection/ProjectSection";
-import Carousel from "../../components/carousel/Carousel.jsx";
+import ProjectSection from "../../../components/en/projectSection/ProjectSection.jsx";
+import Carousel from "../../../components/carousel/Carousel.jsx";
 import {
   burgerImages,
   refugeMimineImages,
   karateKidImages,
   josCoworkingImages,
-} from "../../components/data/projectData.js";
+} from "../../../components/data/projectData.js";
 
 const ProjectsPage = () => {
   return (
     <div className="container">
       <ProjectSection />
-
+      <h1 className="project-title">Projects</h1>
       <div className="row mb-3">
         <Carousel title="BURGER SHOP" images={burgerImages} />
         <Carousel title="REFUGE MIMINE" images={refugeMimineImages} />
